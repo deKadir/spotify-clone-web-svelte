@@ -10,10 +10,7 @@
 	<main
 		class="w-[calc(100vw-240px)] overflow-x-hidden scrollbar scrollbar-thumb-link/40 hover:scrollbar-thumb-link/60 active:scrollbar-thumb-link/80"
 	>
-		<Navbar />
-		<div class="py-6 px-8">
-			<slot />
-		</div>
+		<slot />
 	</main>
 </div>
 <BottomBar />

@@ -2,7 +2,7 @@
 	import Logo from '../../assets/Logo.svelte';
 	import { page } from '$app/stores';
 	import Home from '../../assets/Home.svelte';
-	import Search from '../../assets/Search.svelte';
+	import Search from '../../assets/SvgSearch.svelte';
 	import BookShelf from '../../assets/BookShelf.svelte';
 	import FavoriteRgb from '../../assets/FavoriteRGB.svelte';
 	import Plus from '../../assets/PlusContained.svelte';

@@ -1,6 +1,12 @@
 <script>
+	import SvgClose from '../../assets/SvgClose.svelte';
 	import Play from '../Button/Play.svelte';
-	export let title, cover, size, url, caption;
+	export let title,
+		cover,
+		url,
+		caption,
+		removable = false,
+		size = 'sm';
 </script>
 
 {#if size === 'lg'}
@@ -19,13 +25,13 @@
 		/>
 	</div>
 {/if}
-{#if !size}
-	<div class="relative group">
+{#if size === 'sm'}
+	<div class="relative group w-full h-full">
 		<a href={url}>
 			<article
 				class="flex flex-col items-start justify-start bg-white/5 rounded-md  hover:bg-white/20 duration-300 group-hover:bg-white/20 p-4"
 			>
-				<img src={cover} alt={title} />
+				<img src={cover} alt={title} class="w-full" />
 				<p class="font-semibold capitalize my-4  line-clamp-1">
 					{title}
 				</p>
@@ -34,6 +40,13 @@
 				</p>
 			</article>
 		</a>
+		{#if removable}
+			<button
+				class="absolute  top-1 z-10 right-1 p-2 rounded-full bg-footer hover:scale-105 hover:cursor-auto"
+			>
+				<SvgClose class="w-4 h-4" />
+			</button>
+		{/if}
 		<Play
 			class="opacity-0  mt-4  group-hover:opacity-100 duration-300   absolute z-10 top-[35%] group-hover:top-[32%] -translate-x-1/2   right-0"
 		/>
