@@ -1,0 +1,18 @@
+<button
+	class="bg-primary p-4 rounded-full shadow-md shadow-black {$$restProps.class} hover:scale-110  cursor-default"
+>
+	<svg
+		xmlns:xlink="http://www.w3.org/1999/xlink"
+		xmlns="http://www.w3.org/2000/svg"
+		role="img"
+		height="16"
+		width="16"
+		aria-hidden="true"
+		viewBox="0 0 16 16"
+		data-encore-id="icon"
+		class="Svg-sc-ytk21e-0 uPxdw"
+		><path
+			d="M3 1.713a.7.7 0 011.05-.607l10.89 6.288a.7.7 0 010 1.212L4.05 14.894A.7.7 0 013 14.288V1.713z"
+		/></svg
+	>
+</button>

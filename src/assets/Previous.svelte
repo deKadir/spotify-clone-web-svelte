@@ -1,0 +1,16 @@
+<svg
+	xmlns:xlink="http://www.w3.org/1999/xlink"
+	xmlns="http://www.w3.org/2000/svg"
+	role="img"
+	height="16"
+	width="16"
+	aria-hidden="true"
+	class="Svg-sc-ytk21e-0 kcBZLg IYDlXmBmmUKHveMzIPCF"
+	viewBox="0 0 16 16"
+	data-encore-id="icon"
+	{...$$restProps}
+	><path
+		d="M11.03.47a.75.75 0 010 1.06L4.56 8l6.47 6.47a.75.75 0 11-1.06 1.06L2.44 8 9.97.47a.75.75 0 011.06 0z"
+		fill="#FFFFFF"
+	/></svg
+>

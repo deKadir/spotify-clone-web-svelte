@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@layer base {
+	html,
+	body,
+	#svelte {
+		@apply h-full bg-backdrop text-white antialiased scrollbar;
+	}
+	.wrapper {
+		height: calc(100% - theme('spacing.24'));
+		@apply flex;
+	}
+}
