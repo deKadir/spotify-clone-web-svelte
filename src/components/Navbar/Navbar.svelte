@@ -1,13 +1,15 @@
 <script>
-	import Previous from '../../assets/Previous.svelte';
-	import Next from '../../assets/Next.svelte';
+	import Previous from '../../assets/SvgPrevious.svelte';
+	import Next from '../../assets/SvgNext.svelte';
 	import { Menu, MenuButton, MenuItems, MenuItem } from '@rgossiaux/svelte-headlessui';
-	import User from '../../assets/User.svelte';
-	import Chevron from '../../assets/Chevron.svelte';
-	import Upgrade from '../../assets/Upgrade.svelte';
+	import User from '../../assets/SvgUser.svelte';
+	import Chevron from '../../assets/SvgChevron.svelte';
+	import Upgrade from '../../assets/SvgUpgrade.svelte';
 </script>
 
-<nav class="h-[3.85rem] flex items-center justify-between px-8">
+<nav
+	class="h-[3.85rem] flex items-center justify-between fixed px-8 flex-auto z-[99] w-[calc(100%-240px)] "
+>
 	<!-- Left side -->
 	<div class="flex items-center gap-x-4">
 		<div class="flex gap-x-4">

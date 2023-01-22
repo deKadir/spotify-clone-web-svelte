@@ -1,12 +1,12 @@
 <script>
-	import Logo from '../../assets/Logo.svelte';
+	import Logo from '../../assets/SvgLogo.svelte';
 	import { page } from '$app/stores';
-	import Home from '../../assets/Home.svelte';
+	import Home from '../../assets/SvgHome.svelte';
 	import Search from '../../assets/SvgSearch.svelte';
-	import BookShelf from '../../assets/BookShelf.svelte';
-	import FavoriteRgb from '../../assets/FavoriteRGB.svelte';
-	import Plus from '../../assets/PlusContained.svelte';
-	import Download from '../../assets/Download.svelte';
+	import BookShelf from '../../assets/SvgBookShelf.svelte';
+	import FavoriteRgb from '../../assets/SvgFavoriteRGB.svelte';
+	import Plus from '../../assets/SvgPlusContained.svelte';
+	import Download from '../../assets/SvgDownload.svelte';
 
 	const navItems = [
 		{ text: 'Ana sayfa', link: '/', logo: Home },
