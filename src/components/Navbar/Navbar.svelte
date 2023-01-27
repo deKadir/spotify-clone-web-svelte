@@ -7,14 +7,15 @@
 	import Chevron from '../../assets/SvgChevron.svelte';
 	import Upgrade from '../../assets/SvgUpgrade.svelte';
 	import { onMount } from 'svelte';
-	let nav;
-	export let animatedBg;
+	let navbar;
+	export let background;
 	onMount(() => {
 		scrollTop.subscribe((value) => {
+			if (!navbar) return;
 			if (value >= 61) {
-				nav.classList.add(`!bg-[${animatedBg}]`);
+				navbar.style.background = background;
 			} else {
-				nav.classList.remove(`!bg-[${animatedBg}]`);
+				navbar.style.background = 'transparent';
 			}
 		});
 	});
@@ -23,7 +24,7 @@
 <nav
 	class="h-[3.85rem] flex items-center justify-between fixed px-8 flex-auto z-[99] w-[calc(100%-240px)] duration-300 {$$restProps.class} "
 	{...$$restProps}
-	bind:this={nav}
+	bind:this={navbar}
 >
 	<!-- Left side -->
 	<div class="flex items-center gap-x-4">
@@ -78,3 +79,6 @@
 		</MenuItems>
 	</Menu>
 </nav>
+
+<style>
+</style>

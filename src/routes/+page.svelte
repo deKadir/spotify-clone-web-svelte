@@ -101,7 +101,7 @@
 	});
 </script>
 
-<Navbar />
+<Navbar background="#000" />
 <Container>
 	<List {title} leading link="/recent-searches">
 		<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-x-5 gap-y-4">

@@ -20,7 +20,7 @@
 	];
 </script>
 
-<Navbar>
+<Navbar background="#000">
 	<ul class="flex gap-2 ml-6">
 		{#each navLinks as { title }, i}
 			<li class="navLink {i === 0 && 'active !block'} hidden lg:block">

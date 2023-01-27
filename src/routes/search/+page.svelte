@@ -93,7 +93,7 @@
 	];
 </script>
 
-<Navbar>
+<Navbar background="#000">
 	<!-- Searchbar -->
 	<div class="h-[40px]  px-3 bg-white rounded-full min-w-[360px] flex items-center">
 		<label for="search">

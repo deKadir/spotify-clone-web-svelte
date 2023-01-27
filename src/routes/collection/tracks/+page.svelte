@@ -12,14 +12,13 @@
 	import { onMount } from 'svelte';
 	let hover;
 	let stickyNav;
-	let primaryNav;
 
 	onMount(() => {
 		scrollTop.subscribe((value) => {
 			if (value >= 393) {
-				stickyNav.classList.add('bg-active');
+				stickyNav?.classList?.add('bg-active');
 			} else {
-				stickyNav.classList.remove('bg-active');
+				stickyNav?.classList?.remove('bg-active');
 			}
 		});
 	});
@@ -68,7 +67,10 @@
 	];
 </script>
 
-<Navbar animatedBg="#fff" />
+<Navbar background="rgb(33,23,64)">
+	<Play />
+	<h1 class="text-2xl font-bold">Beğenilen Şarkılar</h1>
+</Navbar>
 <div class="h-[340px]" style="background-color: rgba(80, 56, 160,0.7);">
 	<Container on:scroll={(e) => console.log(e)}>
 		<div class="flex gap-6 items-end">
@@ -98,26 +100,27 @@
 		class=" absolute top-0 h-[232px] w-full pointer-events-none"
 		style="background: linear-gradient(rgba(80, 56, 160,.5),rgba(0,0,0,.05));"
 	/>
-	<Container class="pt-7 ">
+	<Container class="pt-7">
 		<Play md />
-		<div class="mt-10">
+	</Container>
+	<div bind:this={stickyNav} class="border-b border-active mb-6 sticky top-[60px]">
+		<Container class="flex !py-2">
+			<div class="uppercase text-sm text-link font-semibold mr-4">#</div>
 			<div
-				bind:this={stickyNav}
-				class="flex px-4 py-2 border-b border-active mb-6 sticky top-[62px]"
+				class="grid grid-cols-[6fr_4fr_4fr_1fr]  gap-x-6  uppercase text-sm text-link font-semibold w-full"
 			>
-				<div class="uppercase text-sm text-link font-semibold mr-4">#</div>
-				<div
-					class="grid grid-cols-[6fr_4fr_4fr_1fr]  gap-x-6  uppercase text-sm text-link font-semibold w-full"
-				>
-					<div>Başlık</div>
-					<div>Album</div>
-					<div>Tarih eklendi</div>
-					<div class="justify-self-end"><SvgClock /></div>
-				</div>
+				<div>Başlık</div>
+				<div>Album</div>
+				<div>Tarih eklendi</div>
+				<div class=""><SvgClock /></div>
 			</div>
+		</Container>
+	</div>
+	<Container class="pt-0">
+		<div>
 			{#each songs as song, i}
 				<div
-					class="flex px-4 py-2 hover:bg-active rounded-md cursor-grab duration-100 group"
+					class="flex py-2 hover:bg-active rounded-md cursor-grab duration-100 group"
 					on:mouseenter={() => (hover = i)}
 					on:mouseleave={() => (hover = -1)}
 				>
