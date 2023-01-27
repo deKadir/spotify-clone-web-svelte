@@ -4,6 +4,9 @@
 	import List from '../components/List/List.svelte';
 	import Container from '../components/Container/Container.svelte';
 	import Navbar from '../components/Navbar/Navbar.svelte';
+	import { onMount } from 'svelte';
+
+	let title = '';
 	let items = [
 		{
 			cover: 'https://i.scdn.co/image/ab67616d0000b27332fe4cc67f56cee8d38ebf8f',
@@ -81,11 +84,26 @@
 			caption: 'quibusdam vero perferendis, est culpa alias.'
 		}
 	];
+	onMount(() => {
+		const hour = new Date().getHours();
+		if (hour >= 0 && hour < 6) {
+			title = 'İyi Geceler';
+		}
+		if (hour >= 6 && hour < 12) {
+			title = 'Günaydın';
+		}
+		if (hour >= 12 && hour < 18) {
+			title = 'Tünaydın';
+		}
+		if (hour >= 18 && hour < 24) {
+			title = 'İyi Akşamlar';
+		}
+	});
 </script>
 
 <Navbar />
 <Container>
-	<List title="İyi akşamlar" leading link="/recent-searches">
+	<List {title} leading link="/recent-searches">
 		<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-x-5 gap-y-4">
 			{#each items as { title, cover, url }}
 				<Album {title} {cover} size="lg" {url} />

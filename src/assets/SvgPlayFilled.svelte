@@ -5,12 +5,11 @@
 	height="24"
 	width="24"
 	aria-hidden="true"
-	data-testid="track"
 	viewBox="0 0 24 24"
 	data-encore-id="icon"
-	
+	{...$$restProps}
 	><path
-		d="M6 3h15v15.167a3.5 3.5 0 11-3.5-3.5H19V5H8v13.167a3.5 3.5 0 11-3.5-3.5H6V3zm0 13.667H4.5a1.5 1.5 0 101.5 1.5v-1.5zm13 0h-1.5a1.5 1.5 0 101.5 1.5v-1.5z"
+		d="M7.05 3.606l13.49 7.788a.7.7 0 010 1.212L7.05 20.394A.7.7 0 016 19.788V4.212a.7.7 0 011.05-.606z"
 		fill="#FFFFFF"
 	/></svg
 >

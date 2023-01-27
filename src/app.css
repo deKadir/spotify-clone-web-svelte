@@ -11,4 +11,7 @@
 		height: calc(100% - theme('spacing.24'));
 		@apply flex;
 	}
+	.spotify-scrollbar {
+		@apply scrollbar scrollbar-thumb-link/40 hover:scrollbar-thumb-link/60 active:scrollbar-thumb-link/80;
+	}
 }

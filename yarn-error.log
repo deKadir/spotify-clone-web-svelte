@@ -1,0 +1,58 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\Kadir\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js add @rollup/plugin-replace --no-optional
+
+PATH: 
+  C:\Program Files\Common Files\Oracle\Java\javapath;C:\Python39\Scripts\;C:\Python39\;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\ProgramData\chocolatey\bin;D:\Git\cmd;D:\apache-maven-3.8.2-bin\apache-maven-3.8.2\bin;C:\Program Files\MongoDB\Server\5.0\bin;D:\mongosh-1.1.0-win32-x64\bin;C:\Program Files\nodejs\;C:\Program Files\OpenJDK\openjdk-11.0.14.1_1\bin;C:\Users\Kadir\AppData\Local\Android\Sdk\platform-tools;C:\Program Files\Genymobile\Genymotion\tools;C:\Program Files\Azure Data Studio\bin;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\150\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\150\DTS\Binn\;D:\MySQL\MySQL Shell 8.0\bin\;C:\Users\Kadir\AppData\Local\pnpm;C:\Users\Kadir\AppData\Local\Microsoft\WindowsApps;D:\Microsoft VS Code\bin;C:\Users\Kadir\Desktop\Dosyalarim\flutter\bin;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2021.2.2\bin;;C:\Program Files\heroku\bin;C:\Users\Kadir\AppData\Roaming\npm;C:\Users\Kadir\AppData\Local\Android\Sdk\platform-tools;;C:\Program Files\Azure Data Studio\bin
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  16.14.2
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: EPERM: operation not permitted, unlink 'C:\Users\Kadir\Desktop\projelerim\spotify-clone-svelte\node_modules\@esbuild\win32-x64\esbuild.exe'
+
+npm manifest: 
+  {
+  	"name": "spotify-clone-svelte",
+  	"version": "0.0.1",
+  	"private": true,
+  	"scripts": {
+  		"dev": "vite dev",
+  		"build": "vite build",
+  		"preview": "vite preview",
+  		"check": "svelte-kit sync && svelte-check --tsconfig ./jsconfig.json",
+  		"check:watch": "svelte-kit sync && svelte-check --tsconfig ./jsconfig.json --watch",
+  		"lint": "prettier --plugin-search-dir . --check .",
+  		"format": "prettier --plugin-search-dir . --write ."
+  	},
+  	"devDependencies": {
+  		"@rgossiaux/svelte-headlessui": "^1.0.2",
+  		"@sveltejs/adapter-auto": "^1.0.0",
+  		"@sveltejs/kit": "^1.0.0",
+  		"autoprefixer": "^10.4.13",
+  		"postcss": "^8.4.21",
+  		"prettier": "^2.8.0",
+  		"prettier-plugin-svelte": "^2.8.1",
+  		"svelte": "^3.54.0",
+  		"svelte-check": "^3.0.1",
+  		"tailwindcss": "^3.2.4",
+  		"typescript": "^4.9.3",
+  		"vite": "^4.0.0"
+  	},
+  	"type": "module",
+  	"dependencies": {
+  		"@tailwindcss/line-clamp": "^0.4.2",
+  		"tailwind-scrollbar": "^2.1.0"
+  	}
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

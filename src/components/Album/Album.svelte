@@ -21,7 +21,7 @@
 			</article>
 		</a>
 		<Play
-			class="opacity-0 group-hover:opacity-100 duration-300 transition-opacity absolute z-10 top-1/2 -translate-x-1/2 -translate-y-1/2 right-0"
+			class="opacity-0 group-hover:opacity-100 shadow-md shadow-black duration-300 transition-opacity absolute z-10 top-1/2 -translate-x-1/2 -translate-y-1/2 right-0"
 		/>
 	</div>
 {/if}
@@ -48,7 +48,7 @@
 			</button>
 		{/if}
 		<Play
-			class="opacity-0  mt-4  group-hover:opacity-100 duration-300   absolute z-10 top-[35%] group-hover:top-[32%] -translate-x-1/2   right-0"
+			class="opacity-0 shadow-md shadow-black mt-4  group-hover:opacity-100 duration-300   absolute z-10 top-[35%] group-hover:top-[32%] -translate-x-1/2   right-0"
 		/>
 	</div>
 {/if}

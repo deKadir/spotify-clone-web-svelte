@@ -1,3 +1,3 @@
-<main class="py-6 px-8 mt-16">
+<div class="pb-6 px-8 pt-[5rem] {$$restProps.class}">
 	<slot />
-</main>
+</div>

@@ -47,7 +47,7 @@
 			Çalma listesi oluştur</a
 		>
 		<a
-			href="#"
+			href="/collection/tracks"
 			class=" text-sm flex items-center gap-x-4 py-3 cursor-pointer text-link   hover:text-white transition-duration-300"
 		>
 			<FavoriteRgb class="w-5 h-5" />
@@ -55,7 +55,7 @@
 		>
 	</div>
 	<!-- Playlists -->
-	<ul class="mx-6 pt-1 overflow-auto">
+	<ul class="mx-6 pt-1 overflow-auto spotify-scrollbar">
 		{#each Array(5) as _, k}
 			<li class="py-1">
 				<a

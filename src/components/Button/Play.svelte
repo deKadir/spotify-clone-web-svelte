@@ -1,5 +1,6 @@
 <button
-	class="bg-primary p-4 rounded-full shadow-md shadow-black {$$restProps.class} hover:scale-110  cursor-default"
+	class="bg-primary p-4 rounded-full  hover:scale-110  cursor-default {$$restProps.class}  {$$restProps.md &&
+		'scale-[1.2] hover:scale-[1.25]'} "
 >
 	<svg
 		xmlns:xlink="http://www.w3.org/1999/xlink"

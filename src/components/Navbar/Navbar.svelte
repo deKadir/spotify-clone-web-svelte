@@ -2,13 +2,28 @@
 	import Previous from '../../assets/SvgPrevious.svelte';
 	import Next from '../../assets/SvgNext.svelte';
 	import { Menu, MenuButton, MenuItems, MenuItem } from '@rgossiaux/svelte-headlessui';
+	import { scrollTop } from '../../stores/stores.js';
 	import User from '../../assets/SvgUser.svelte';
 	import Chevron from '../../assets/SvgChevron.svelte';
 	import Upgrade from '../../assets/SvgUpgrade.svelte';
+	import { onMount } from 'svelte';
+	let nav;
+	export let animatedBg;
+	onMount(() => {
+		scrollTop.subscribe((value) => {
+			if (value >= 61) {
+				nav.classList.add(`!bg-[${animatedBg}]`);
+			} else {
+				nav.classList.remove(`!bg-[${animatedBg}]`);
+			}
+		});
+	});
 </script>
 
 <nav
-	class="h-[3.85rem] flex items-center justify-between fixed px-8 flex-auto z-[99] w-[calc(100%-240px)] "
+	class="h-[3.85rem] flex items-center justify-between fixed px-8 flex-auto z-[99] w-[calc(100%-240px)] duration-300 {$$restProps.class} "
+	{...$$restProps}
+	bind:this={nav}
 >
 	<!-- Left side -->
 	<div class="flex items-center gap-x-4">
