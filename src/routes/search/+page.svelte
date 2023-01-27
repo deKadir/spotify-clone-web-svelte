@@ -108,7 +108,7 @@
 	</div>
 </Navbar>
 <Container>
-	<List title="Yakındaki Aramalar" leading link="/recent-search">
+	<!-- <List title="Yakındaki Aramalar" leading link="/recent-search">
 		<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-6 gap-x-5 gap-y-4">
 			{#each recents as { title, cover, url }}
 				<Album
@@ -121,7 +121,7 @@
 				/>
 			{/each}
 		</div></List
-	>
+	> -->
 	<h1 class="text-2xl font-bold mt-2 mb-4">Hepsine göz at</h1>
 	<div class="grid sm:grid-cols-2 md:grid-cols-3  lg:grid-cols-6 gap-8">
 		{#each genres as { title, cover, color }}
