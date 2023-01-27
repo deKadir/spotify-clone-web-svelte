@@ -6,6 +6,7 @@
 		url,
 		caption,
 		removable = false,
+		onRemove,
 		size = 'sm';
 </script>
 
@@ -43,6 +44,7 @@
 		{#if removable}
 			<button
 				class="absolute  top-1 z-10 right-1 p-2 rounded-full bg-footer hover:scale-105 hover:cursor-auto"
+				on:click={onRemove}
 			>
 				<SvgClose class="w-4 h-4" />
 			</button>

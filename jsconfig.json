@@ -9,7 +9,7 @@
 		"skipLibCheck": true,
 		"sourceMap": true,
 		"noImplicitAny": false,
-		"strict": true,
+		"strict": false,
 		"noImplicitReturns": false,
 		"strictNullChecks": false
 	}

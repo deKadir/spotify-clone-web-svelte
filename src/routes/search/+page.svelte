@@ -18,33 +18,33 @@
 		{
 			cover: 'https://i.scdn.co/image/ab67706f00000002f4951bf7efeffc38247af0d5',
 			title: 'Hot Hits',
-			url: '/playlist/37i9dQZF1E34UJx5yqQCF6',
+			url: '/playlist/17i9daZF1E34UJx5yqQCF6',
 			caption: 'possimus veniam debitis delectus eum exercitationem eius'
 		},
 		{
 			cover:
 				'https://dailymix-images.scdn.co/v2/img/ab6761610000e5ebed30111b433e140bfdd0a038/3/tr/default',
 			title: 'Duman',
-			url: '/playlist/37i9dQZF1E34UJx5yqQCF6',
+			url: '/playlist/32i9dQZF1E34UJx5yqQCF6',
 			caption: 'Ducimus possimus ut sit laborum quod dicta tempore'
 		},
 		{
 			cover: 'https://i.scdn.co/image/ab67706f00000002f4951bf7efeffc38247af0d5',
 			title: 'Hot Hits',
-			url: '/playlist/37i9dQZF1E34UJx5yqQCF6',
+			url: '/playlist/23i9dQZF1E34UJx5yqQCF6',
 			caption: 'tempora nostrum voluptas. illo quia exercitationem'
 		},
 		{
 			cover: 'https://i.scdn.co/image/ab67706f000000028f91caa53f2c282ce84d6d43',
 			title: 'Slow Pop',
-			url: '/playlist/37i9dQZF1E34UJx5yqQCF6',
+			url: '/playlist/45i9dQZF1E34UJx5yqQCF6',
 			caption: 'Obcaecati nihil eaque laudantium sed maiores, fugit incidunt'
 		},
 		{
 			cover:
 				'https://dailymix-images.scdn.co/v2/img/ab6761610000e5ebdc9dcb7e4a97b4552e1224d6/6/tr/default',
 			title: 'Daily Mix 6',
-			url: '/playlist/37i9dQZF1E34UJx5yqQCF6',
+			url: '/playlist/38i9dQZF1E34UJx5yqQCF6',
 			caption: 'quibusdam vero perferendis, est culpa alias.'
 		}
 	];
@@ -111,7 +111,14 @@
 	<List title="Yakındaki Aramalar" leading link="/recent-search">
 		<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-6 gap-x-5 gap-y-4">
 			{#each recents as { title, cover, url }}
-				<Album {title} {cover} caption="sanatçı" {url} removable />
+				<Album
+					{title}
+					{cover}
+					caption="sanatçı"
+					{url}
+					removable
+					onRemove={() => (recents = recents.filter((r) => r.url !== url))}
+				/>
 			{/each}
 		</div></List
 	>
