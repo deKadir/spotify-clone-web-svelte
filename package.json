@@ -28,6 +28,7 @@
 	"type": "module",
 	"dependencies": {
 		"@tailwindcss/line-clamp": "^0.4.2",
+		"axios": "^1.2.5",
 		"tailwind-scrollbar": "^2.1.0"
 	}
 }

@@ -1,0 +1,888 @@
+[
+	{
+		"uri": "0JQ5DAob0JCuWaGLU6ntFY",
+		"data": {
+			"__typename": "HomeGenericSectionData",
+			"title": {
+				"text": "Odaklan"
+			}
+		},
+		"sectionItems": {
+			"items": [
+				{
+					"uri": "37i9dQZF1DX4sWSpwq3LiO",
+					"content": {
+						"__typename": "PlaylistResponseWrapper",
+						"data": {
+							"__typename": "Playlist",
+							"uri": "37i9dQZF1DX4sWSpwq3LiO",
+							"name": "Peaceful Piano",
+							"images": {
+								"items": [
+									{
+										"sources": [
+											{
+												"url": "https://i.scdn.co/image/ab67706f00000002ca5a7517156021292e5663a6",
+												"width": null,
+												"height": null
+											}
+										],
+										"extractedColors": {
+											"colorDark": {
+												"hex": "#68798A",
+												"isFallback": false
+											}
+										}
+									}
+								]
+							},
+							"description": "Relax and indulge with beautiful piano pieces",
+							"ownerV2": {
+								"data": {
+									"__typename": "User",
+									"name": "Spotify"
+								}
+							}
+						}
+					},
+					"data": null
+				},
+				{
+					"uri": "37i9dQZF1DWZeKCadgRdKQ",
+					"content": {
+						"__typename": "PlaylistResponseWrapper",
+						"data": {
+							"__typename": "Playlist",
+							"uri": "37i9dQZF1DWZeKCadgRdKQ",
+							"name": "Deep Focus",
+							"images": {
+								"items": [
+									{
+										"sources": [
+											{
+												"url": "https://i.scdn.co/image/ab67706f000000025551996f500ba876bda73fa5",
+												"width": null,
+												"height": null
+											}
+										],
+										"extractedColors": {
+											"colorDark": {
+												"hex": "#404038",
+												"isFallback": false
+											}
+										}
+									}
+								]
+							},
+							"description": "Keep calm and focus with ambient and post-rock music.",
+							"ownerV2": {
+								"data": {
+									"__typename": "User",
+									"name": "Spotify"
+								}
+							}
+						}
+					},
+					"data": null
+				},
+				{
+					"uri": "37i9dQZF1DX9sIqqvKsjG8",
+					"content": {
+						"__typename": "PlaylistResponseWrapper",
+						"data": {
+							"__typename": "Playlist",
+							"uri": "37i9dQZF1DX9sIqqvKsjG8",
+							"name": "Instrumental Study",
+							"images": {
+								"items": [
+									{
+										"sources": [
+											{
+												"url": "https://i.scdn.co/image/ab67706f000000025d87659dcadef82dd0e73f56",
+												"width": null,
+												"height": null
+											}
+										],
+										"extractedColors": {
+											"colorDark": {
+												"hex": "#82791B",
+												"isFallback": false
+											}
+										}
+									}
+								]
+							},
+							"description": "Focus with soft study music in the background.",
+							"ownerV2": {
+								"data": {
+									"__typename": "User",
+									"name": "Spotify"
+								}
+							}
+						}
+					},
+					"data": null
+				},
+				{
+					"uri": "37i9dQZF1DX8Uebhn9wzrS",
+					"content": {
+						"__typename": "PlaylistResponseWrapper",
+						"data": {
+							"__typename": "Playlist",
+							"uri": "37i9dQZF1DX8Uebhn9wzrS",
+							"name": "chill lofi study beats",
+							"images": {
+								"items": [
+									{
+										"sources": [
+											{
+												"url": "https://i.scdn.co/image/ab67706f000000025b0a7b8408322a3b9ed15e1e",
+												"width": null,
+												"height": null
+											}
+										],
+										"extractedColors": {
+											"colorDark": {
+												"hex": "#E52820",
+												"isFallback": false
+											}
+										}
+									}
+								]
+							},
+							"description": "The perfect study beats. Find your focus, crush your productivity. ",
+							"ownerV2": {
+								"data": {
+									"__typename": "User",
+									"name": "Spotify"
+								}
+							}
+						}
+					},
+					"data": null
+				},
+				{
+					"uri": "37i9dQZF1DX0SM0LYsmbMT",
+					"content": {
+						"__typename": "PlaylistResponseWrapper",
+						"data": {
+							"__typename": "Playlist",
+							"uri": "37i9dQZF1DX0SM0LYsmbMT",
+							"name": "Jazz Vibes",
+							"images": {
+								"items": [
+									{
+										"sources": [
+											{
+												"url": "https://i.scdn.co/image/ab67706f000000025ea54b91b073c2776b966e7b",
+												"width": null,
+												"height": null
+											}
+										],
+										"extractedColors": {
+											"colorDark": {
+												"hex": "#477D99",
+												"isFallback": false
+											}
+										}
+									}
+								]
+							},
+							"description": "The original chill instrumental beats playlist.",
+							"ownerV2": {
+								"data": {
+									"__typename": "User",
+									"name": "Spotify"
+								}
+							}
+						}
+					},
+					"data": null
+				},
+				{
+					"uri": "37i9dQZF1DWZZbwlv3Vmtr",
+					"content": {
+						"__typename": "PlaylistResponseWrapper",
+						"data": {
+							"__typename": "Playlist",
+							"uri": "37i9dQZF1DWZZbwlv3Vmtr",
+							"name": "Focus Flow",
+							"images": {
+								"items": [
+									{
+										"sources": [
+											{
+												"url": "https://i.scdn.co/image/ab67706f00000002724554ed6bed6f051d9b0bfc",
+												"width": null,
+												"height": null
+											}
+										],
+										"extractedColors": {
+											"colorDark": {
+												"hex": "#C82030",
+												"isFallback": false
+											}
+										}
+									}
+								]
+							},
+							"description": "Uptempo instrumental hip hop beats.",
+							"ownerV2": {
+								"data": {
+									"__typename": "User",
+									"name": "Spotify"
+								}
+							}
+						}
+					},
+					"data": null
+				},
+				{
+					"uri": "37i9dQZF1DX5trt9i14X7j",
+					"content": {
+						"__typename": "PlaylistResponseWrapper",
+						"data": {
+							"__typename": "Playlist",
+							"uri": "37i9dQZF1DX5trt9i14X7j",
+							"name": "Coding Mode  ",
+							"images": {
+								"items": [
+									{
+										"sources": [
+											{
+												"url": "https://i.scdn.co/image/ab67706f00000002863b311d4b787ed621f7e696",
+												"width": null,
+												"height": null
+											}
+										],
+										"extractedColors": {
+											"colorDark": {
+												"hex": "#328729",
+												"isFallback": false
+											}
+										}
+									}
+								]
+							},
+							"description": "Dedicated to all the programmers out there.",
+							"ownerV2": {
+								"data": {
+									"__typename": "User",
+									"name": "Spotify"
+								}
+							}
+						}
+					},
+					"data": null
+				},
+				{
+					"uri": "37i9dQZF1DXa2SPUyWl8Y5",
+					"content": {
+						"__typename": "PlaylistResponseWrapper",
+						"data": {
+							"__typename": "Playlist",
+							"uri": "37i9dQZF1DXa2SPUyWl8Y5",
+							"name": "Beats to think to",
+							"images": {
+								"items": [
+									{
+										"sources": [
+											{
+												"url": "https://i.scdn.co/image/ab67706f0000000296e08a91ef3c7a6e7bfaa9a6",
+												"width": null,
+												"height": null
+											}
+										],
+										"extractedColors": {
+											"colorDark": {
+												"hex": "#182040",
+												"isFallback": false
+											}
+										}
+									}
+								]
+							},
+							"description": "Focus with deep techno and tech house.",
+							"ownerV2": {
+								"data": {
+									"__typename": "User",
+									"name": "Spotify"
+								}
+							}
+						}
+					},
+					"data": null
+				},
+				{
+					"uri": "37i9dQZF1DWWn6teJIIcfG",
+					"content": {
+						"__typename": "PlaylistResponseWrapper",
+						"data": {
+							"__typename": "Playlist",
+							"uri": "37i9dQZF1DWWn6teJIIcfG",
+							"name": "Creative Focus",
+							"images": {
+								"items": [
+									{
+										"sources": [
+											{
+												"url": "https://i.scdn.co/image/ab67706f000000025a6fe5537cca0bb20e6abc5f",
+												"width": null,
+												"height": null
+											}
+										],
+										"extractedColors": {
+											"colorDark": {
+												"hex": "#4A7F89",
+												"isFallback": false
+											}
+										}
+									}
+								]
+							},
+							"description": "Get your creative juices flowing with these instrumental masterpieces.",
+							"ownerV2": {
+								"data": {
+									"__typename": "User",
+									"name": "Spotify"
+								}
+							}
+						}
+					},
+					"data": null
+				},
+				{
+					"uri": "37i9dQZF1DWUWUfWSLE7dn",
+					"content": {
+						"__typename": "PlaylistResponseWrapper",
+						"data": {
+							"__typename": "Playlist",
+							"uri": "37i9dQZF1DWUWUfWSLE7dn",
+							"name": "Reading Adventure",
+							"images": {
+								"items": [
+									{
+										"sources": [
+											{
+												"url": "https://i.scdn.co/image/ab67706f00000002fee0aa7c6bfc815873e45f9e",
+												"width": null,
+												"height": null
+											}
+										],
+										"extractedColors": {
+											"colorDark": {
+												"hex": "#383838",
+												"isFallback": false
+											}
+										}
+									}
+								]
+							},
+							"description": "Scores and soundtracks for daring quests, epic journeys, and the greatest reading adventures. ",
+							"ownerV2": {
+								"data": {
+									"__typename": "User",
+									"name": "Spotify"
+								}
+							}
+						}
+					},
+					"data": null
+				}
+			],
+			"totalCount": 17
+		}
+	},
+	{
+		"uri": "0JQ5DAuChZYPe9iDhh2mJz",
+		"data": {
+			"__typename": "HomeGenericSectionData",
+			"title": {
+				"text": "Spotify Playlists"
+			}
+		},
+		"sectionItems": {
+			"items": [
+				{
+					"uri": "37i9dQZF1DXcBWIGoYBM5M",
+					"content": {
+						"__typename": "PlaylistResponseWrapper",
+						"data": {
+							"__typename": "Playlist",
+							"uri": "37i9dQZF1DXcBWIGoYBM5M",
+							"name": "Today's Top Hits",
+							"images": {
+								"items": [
+									{
+										"sources": [
+											{
+												"url": "https://i.scdn.co/image/ab67706f00000002c57a3acb9f3f0517fe87abe6",
+												"width": null,
+												"height": null
+											}
+										],
+										"extractedColors": {
+											"colorDark": {
+												"hex": "#DC392B",
+												"isFallback": false
+											}
+										}
+									}
+								]
+							},
+							"description": "Sam Smith is on top of the Hottest 50!",
+							"ownerV2": {
+								"data": {
+									"__typename": "User",
+									"name": "Spotify"
+								}
+							}
+						}
+					},
+					"data": null
+				},
+				{
+					"uri": "37i9dQZF1DX0XUsuxWHRQd",
+					"content": {
+						"__typename": "PlaylistResponseWrapper",
+						"data": {
+							"__typename": "Playlist",
+							"uri": "37i9dQZF1DX0XUsuxWHRQd",
+							"name": "RapCaviar",
+							"images": {
+								"items": [
+									{
+										"sources": [
+											{
+												"url": "https://i.scdn.co/image/ab67706f00000002d9a28961c33c1abc19818a1f",
+												"width": null,
+												"height": null
+											}
+										],
+										"extractedColors": {
+											"colorDark": {
+												"hex": "#A8690C",
+												"isFallback": false
+											}
+										}
+									}
+								]
+							},
+							"description": "Music from Metro Boomin, DaBaby and Rae Sremmurd. ",
+							"ownerV2": {
+								"data": {
+									"__typename": "User",
+									"name": "Spotify"
+								}
+							}
+						}
+					},
+					"data": null
+				},
+				{
+					"uri": "37i9dQZF1DX5Ejj0EkURtP",
+					"content": {
+						"__typename": "PlaylistResponseWrapper",
+						"data": {
+							"__typename": "Playlist",
+							"uri": "37i9dQZF1DX5Ejj0EkURtP",
+							"name": "All Out 2010s",
+							"images": {
+								"items": [
+									{
+										"sources": [
+											{
+												"url": "https://i.scdn.co/image/ab67706f00000002b0fe40a6e1692822f5a9d8f1",
+												"width": null,
+												"height": null
+											}
+										],
+										"extractedColors": {
+											"colorDark": {
+												"hex": "#4000F0",
+												"isFallback": false
+											}
+										}
+									}
+								]
+							},
+							"description": "The biggest songs of the 2010s. ",
+							"ownerV2": {
+								"data": {
+									"__typename": "User",
+									"name": "Spotify"
+								}
+							}
+						}
+					},
+					"data": null
+				},
+				{
+					"uri": "37i9dQZF1DWXRqgorJj26U",
+					"content": {
+						"__typename": "PlaylistResponseWrapper",
+						"data": {
+							"__typename": "Playlist",
+							"uri": "37i9dQZF1DWXRqgorJj26U",
+							"name": "Rock Classics",
+							"images": {
+								"items": [
+									{
+										"sources": [
+											{
+												"url": "https://i.scdn.co/image/ab67706f0000000278b4745cb9ce8ffe32daaf7e",
+												"width": null,
+												"height": null
+											}
+										],
+										"extractedColors": {
+											"colorDark": {
+												"hex": "#535353",
+												"isFallback": true
+											}
+										}
+									}
+								]
+							},
+							"description": "Rock legends & epic songs that continue to inspire generations. Cover: Foo Fighters",
+							"ownerV2": {
+								"data": {
+									"__typename": "User",
+									"name": "Spotify"
+								}
+							}
+						}
+					},
+					"data": null
+				},
+				{
+					"uri": "37i9dQZF1DX4WYpdgoIcn6",
+					"content": {
+						"__typename": "PlaylistResponseWrapper",
+						"data": {
+							"__typename": "Playlist",
+							"uri": "37i9dQZF1DX4WYpdgoIcn6",
+							"name": "Chill Hits",
+							"images": {
+								"items": [
+									{
+										"sources": [
+											{
+												"url": "https://i.scdn.co/image/ab67706f0000000208ca740941aa65b5e205c361",
+												"width": null,
+												"height": null
+											}
+										],
+										"extractedColors": {
+											"colorDark": {
+												"hex": "#687078",
+												"isFallback": false
+											}
+										}
+									}
+								]
+							},
+							"description": "Kick back to the best new and recent chill hits.",
+							"ownerV2": {
+								"data": {
+									"__typename": "User",
+									"name": "Spotify"
+								}
+							}
+						}
+					},
+					"data": null
+				},
+				{
+					"uri": "37i9dQZF1DX10zKzsJ2jva",
+					"content": {
+						"__typename": "PlaylistResponseWrapper",
+						"data": {
+							"__typename": "Playlist",
+							"uri": "37i9dQZF1DX10zKzsJ2jva",
+							"name": "Viva Latino",
+							"images": {
+								"items": [
+									{
+										"sources": [
+											{
+												"url": "https://i.scdn.co/image/ab67706f000000026dd0cdb75ad98b47d5a9bc58",
+												"width": null,
+												"height": null
+											}
+										],
+										"extractedColors": {
+											"colorDark": {
+												"hex": "#480810",
+												"isFallback": false
+											}
+										}
+									}
+								]
+							},
+							"description": "Today's top Latin hits, elevando nuestra música. Cover: ROSALÍA ",
+							"ownerV2": {
+								"data": {
+									"__typename": "User",
+									"name": "Spotify"
+								}
+							}
+						}
+					},
+					"data": null
+				},
+				{
+					"uri": "37i9dQZF1DXbYM3nMM0oPk",
+					"content": {
+						"__typename": "PlaylistResponseWrapper",
+						"data": {
+							"__typename": "Playlist",
+							"uri": "37i9dQZF1DXbYM3nMM0oPk",
+							"name": "Mega Hit Mix",
+							"images": {
+								"items": [
+									{
+										"sources": [
+											{
+												"url": "https://i.scdn.co/image/ab67706f00000002db32a17c1f5291b19317b62e",
+												"width": null,
+												"height": null
+											}
+										],
+										"extractedColors": {
+											"colorDark": {
+												"hex": "#6D797F",
+												"isFallback": false
+											}
+										}
+									}
+								]
+							},
+							"description": "A mega mix of 75 favorites from the last few years! ",
+							"ownerV2": {
+								"data": {
+									"__typename": "User",
+									"name": "Spotify"
+								}
+							}
+						}
+					},
+					"data": null
+				},
+				{
+					"uri": "37i9dQZF1DX4UtSsGT1Sbe",
+					"content": {
+						"__typename": "PlaylistResponseWrapper",
+						"data": {
+							"__typename": "Playlist",
+							"uri": "37i9dQZF1DX4UtSsGT1Sbe",
+							"name": "All Out 80s",
+							"images": {
+								"items": [
+									{
+										"sources": [
+											{
+												"url": "https://i.scdn.co/image/ab67706f0000000284a725e6f3d69525afd9e1a7",
+												"width": null,
+												"height": null
+											}
+										],
+										"extractedColors": {
+											"colorDark": {
+												"hex": "#D72B8F",
+												"isFallback": false
+											}
+										}
+									}
+								]
+							},
+							"description": "The biggest songs of the 1980s.",
+							"ownerV2": {
+								"data": {
+									"__typename": "User",
+									"name": "Spotify"
+								}
+							}
+						}
+					},
+					"data": null
+				}
+			],
+			"totalCount": 8
+		}
+	},
+	{
+		"uri": "0JQ5DAqAJXkJGsa2DyEjKh",
+		"data": {
+			"__typename": "HomeGenericSectionData",
+			"title": {
+				"text": "Benzersiz seçimlerin"
+			}
+		},
+		"sectionItems": {
+			"items": [
+				{
+					"uri": "spotify:user::collection",
+					"content": {
+						"__typename": "UnknownType",
+						"uri": "spotify:user::collection"
+					},
+					"data": null
+				}
+			],
+			"totalCount": 1
+		}
+	},
+	{
+		"uri": "0JQ5DAob0JZbzOPX2sZB2p",
+		"data": {
+			"__typename": "HomeGenericSectionData",
+			"title": {
+				"text": "Uyku"
+			}
+		},
+		"sectionItems": {
+			"items": [
+				{
+					"uri": "37i9dQZF1ETmIFBaOJTBeM",
+					"content": {
+						"__typename": "PlaylistResponseWrapper",
+						"data": {
+							"__typename": "GenericError"
+						}
+					},
+					"data": null
+				},
+				{
+					"uri": "37i9dQZF1DWZd79rJ6a7lp",
+					"content": {
+						"__typename": "PlaylistResponseWrapper",
+						"data": {
+							"__typename": "Playlist",
+							"uri": "37i9dQZF1DWZd79rJ6a7lp",
+							"name": "Sleep",
+							"images": {
+								"items": [
+									{
+										"sources": [
+											{
+												"url": "https://i.scdn.co/image/ab67706f00000002bc9438e3a6ff78076f8b1405",
+												"width": null,
+												"height": null
+											}
+										],
+										"extractedColors": {
+											"colorDark": {
+												"hex": "#102040",
+												"isFallback": false
+											}
+										}
+									}
+								]
+							},
+							"description": "Gentle ambient piano to help you fall asleep.",
+							"ownerV2": {
+								"data": {
+									"__typename": "User",
+									"name": "Spotify"
+								}
+							}
+						}
+					},
+					"data": null
+				},
+				{
+					"uri": "37i9dQZF1DXdbkmlag2h7b",
+					"content": {
+						"__typename": "PlaylistResponseWrapper",
+						"data": {
+							"__typename": "Playlist",
+							"uri": "37i9dQZF1DXdbkmlag2h7b",
+							"name": "DayDreamer",
+							"images": {
+								"items": [
+									{
+										"sources": [
+											{
+												"url": "https://i.scdn.co/image/ab67706f00000002d2291e0c5d43a1b21a941031",
+												"width": null,
+												"height": null
+											}
+										],
+										"extractedColors": {
+											"colorDark": {
+												"hex": "#387088",
+												"isFallback": false
+											}
+										}
+									}
+								]
+							},
+							"description": "Drift away with enthralling instrumentals.",
+							"ownerV2": {
+								"data": {
+									"__typename": "User",
+									"name": "Spotify"
+								}
+							}
+						}
+					},
+					"data": null
+				}
+			],
+			"totalCount": 3
+		}
+	},
+	{
+		"uri": "0JQ5DAroEmF9ANbLaiJ7Wx",
+		"data": {
+			"__typename": "HomeRecentlyPlayedSectionData",
+			"title": {
+				"text": "Yakınlarda Çalınanlar"
+			}
+		},
+		"sectionItems": {
+			"items": [
+				{
+					"uri": "37i9dQZF1DXdPec7aLTmlC",
+					"content": {
+						"__typename": "PlaylistResponseWrapper",
+						"data": {
+							"__typename": "Playlist",
+							"uri": "37i9dQZF1DXdPec7aLTmlC",
+							"name": "Happy Hits!",
+							"images": {
+								"items": [
+									{
+										"sources": [
+											{
+												"url": "https://i.scdn.co/image/ab67706f00000002b55b6074da1d43715fc16d6d",
+												"width": null,
+												"height": null
+											}
+										],
+										"extractedColors": {
+											"colorDark": {
+												"hex": "#3D7AB7",
+												"isFallback": false
+											}
+										}
+									}
+								]
+							},
+							"description": "Hits to boost your mood and fill you with happiness!",
+							"ownerV2": {
+								"data": {
+									"__typename": "User",
+									"name": "Spotify"
+								}
+							}
+						}
+					},
+					"data": null
+				}
+			],
+			"totalCount": 1
+		}
+	}
+]
