@@ -8,14 +8,17 @@
 	import Upgrade from '../../assets/SvgUpgrade.svelte';
 	import { onMount } from 'svelte';
 	let navbar;
+	let isScrolled = false;
 	export let background;
 	onMount(() => {
 		scrollTop.subscribe((value) => {
 			if (!navbar) return;
 			if (value >= 61) {
 				navbar.style.background = background;
+				isScrolled = true;
 			} else {
 				navbar.style.background = 'transparent';
+				isScrolled = false;
 			}
 		});
 	});
@@ -42,7 +45,7 @@
 				<Next />
 			</div>
 		</div>
-		<slot />
+		<slot {isScrolled} />
 	</div>
 	<!-- Profile Menu -->
 	<Menu class="relative" let:open>

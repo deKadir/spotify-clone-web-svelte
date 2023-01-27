@@ -1,0 +1,47 @@
+[
+	{
+		"id": 1,
+		"title": "Anywhen You Say",
+		"artist": "Cheel",
+		"source": "1.mp3",
+		"image": "https://i.scdn.co/image/ab67706f0000000297efb68f9ac20e08ed463f66",
+		"duration": "148",
+		"added": "2023-01-27"
+	},
+	{
+		"id": 2,
+		"title": "First Dream",
+		"artist": "Brian Bolger",
+		"source": "2.mp3",
+		"image": "https://i.scdn.co/image/ab67616d00001e0256f6a49113b4b54f893d86e0",
+		"duration": "141",
+		"added": "2023-01-25"
+	},
+	{
+		"id": 3,
+		"title": "Ice & Fire",
+		"artist": "King Canyon",
+		"source": "3.mp3",
+		"image": "https://scontent-ams4-1.xx.fbcdn.net/v/t1.6435-1/93042562_10218181944800574_8812284408963792896_n.jpg?stp=dst-jpg_p320x320&_nc_cat=109&ccb=1-7&_nc_sid=0c64ff&_nc_ohc=agsrYRilYygAX_c7UfT&_nc_ht=scontent-ams4-1.xx&edm=AP4hL3IEAAAA&oh=00_AfDcWt9CdSeBx32NhH8opCmqjNrvONvFH6Es-zisPoo1HQ&oe=63FB24C3",
+		"duration": "244",
+		"added": "2023-01-24"
+	},
+	{
+		"id": 4,
+		"title": "Joy To The World",
+		"artist": "DJ Williams",
+		"source": "4.mp3",
+		"image": "https://i.scdn.co/image/ab6761610000f1784d4073d826947c52e75b447a",
+		"duration": "127",
+		"added": "2023-01-22"
+	},
+	{
+		"id": 5,
+		"title": "Wehrmut",
+		"artist": "Godmode",
+		"source": "5.mp3",
+		"image": "https://i.scdn.co/image/ab67616d00001e02537bad3cfdd1ceef1e1d300b",
+		"duration": "98",
+		"added": "2023-01-22"
+	}
+]

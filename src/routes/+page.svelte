@@ -40,8 +40,8 @@
 		</div>
 	</List> -->
 
-	{#each sections as section}
-		<List title={section.data.title.text} link={`/section/${section.uri}`}>
+	{#each sections as section, i}
+		<List title={section.data.title.text} link={`/section/${section.uri}`} leading={i === 0}>
 			<div class="grid  md:grid-cols-3 lg:grid-cols-6 gap-x-6 gap-y-4 grid-flow-column">
 				{#each section.sectionItems.items as sectionItem}
 					<Album
