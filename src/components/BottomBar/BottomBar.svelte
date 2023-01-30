@@ -42,7 +42,7 @@
 
 	playingSong.subscribe((song) => {
 		if (song?.source && player && song?.isPlaying) {
-			player.src = `mp3/${song.source}`;
+			player.src = `/mp3/${song.source}`;
 			currentSong = song;
 			player.play();
 			paused = false;
