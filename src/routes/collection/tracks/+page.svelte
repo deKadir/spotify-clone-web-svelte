@@ -10,11 +10,18 @@
 	import Footer from '../../../components/Footer/Footer.svelte';
 	import { scrollTop } from '../../../stores/stores';
 	import { onMount } from 'svelte';
-	import { getFavoriteSongs } from '../../../constants/api';
+	import { getFavoriteSongs, playFavoriteSongs, playSongById } from '../../../constants/api';
+	import { playingSong } from '../../../stores/stores';
+	import SvgPause from '../../../assets/player/SvgPause.svelte';
 
 	let hover;
 	let stickyNav;
 	let favoriteSongs = [];
+	let currentSong;
+	let isFavoriteSongPlaying = false;
+	$: isFavoriteSongPlaying =
+		favoriteSongs.some((s) => s.id === currentSong?.id) && currentSong?.isPlaying;
+	playingSong.subscribe((s) => (currentSong = s));
 
 	function getElapsedDays(date) {
 		const difference = Date.now() - new Date(date).getTime();
@@ -32,16 +39,23 @@
 		});
 		favoriteSongs = getFavoriteSongs();
 	});
+
+	function playSong(id) {
+		playSongById(id);
+	}
+	function onPlayFavorite() {
+		playFavoriteSongs();
+	}
 </script>
 
 <Navbar background="rgb(33,23,64)" let:isScrolled>
 	{#if isScrolled}
-		<Play />
+		<Play onClick={onPlayFavorite} isPlaying={isFavoriteSongPlaying} />
 		<h1 class="text-2xl font-bold">Beğenilen Şarkılar</h1>
 	{/if}
 </Navbar>
 <div class="h-[340px]" style="background-color: rgba(80, 56, 160,0.7);">
-	<Container on:scroll={(e) => console.log(e)}>
+	<Container>
 		<div class="flex gap-6 items-end">
 			<SvgFavoriteRgb
 				class="flex-auto max-w-[232px] !p-[5vw] opacity-80 md:w-[192px] self-center shadow-xl"
@@ -70,7 +84,7 @@
 		style="background: linear-gradient(rgba(80, 56, 160,.5),rgba(0,0,0,.05));"
 	/>
 	<Container class="pt-7">
-		<Play md />
+		<Play md onClick={onPlayFavorite} isPlaying={isFavoriteSongPlaying} />
 	</Container>
 	<div bind:this={stickyNav} class="border-b border-active mb-6 sticky top-[60px]">
 		<Container class="flex !py-2">
@@ -88,14 +102,18 @@
 		<div>
 			{#each favoriteSongs as song, i}
 				<div
-					class="flex py-2 hover:bg-active rounded-md cursor-pointer duration-100 group"
+					class="flex py-2 hover:bg-active rounded-md cursor-pointer duration-100 group {song.id ===
+						currentSong?.id && 'bg-active'}"
 					on:mouseenter={() => (hover = i)}
 					on:mouseleave={() => (hover = -1)}
+					on:click={() => playSong(song.id)}
 				>
 					<div
 						class=" text-sm text-link font-semibold my-auto mr-3 w-5 flex items-center justify-center"
 					>
-						{#if hover === i}
+						{#if currentSong?.id === song.id && currentSong?.isPlaying}
+							<SvgPause class="w-4 fill-white" />
+						{:else if hover === i || currentSong?.id === song?.id}
 							<SvgPlayFilled class="w-4" />
 						{:else}
 							{i + 1}
@@ -114,7 +132,12 @@
 									class="mr-4 w-[40px] h-[40px]"
 								/>
 								<div>
-									<p class="text-white mb-1 text-base">{song.title}</p>
+									<p
+										class="text-white mb-1 text-base {song.id === currentSong?.id &&
+											'text-primary '}"
+									>
+										{song.title}
+									</p>
 									<span class="line-clamp-1">{song.artist}</span>
 								</div>
 							</div>

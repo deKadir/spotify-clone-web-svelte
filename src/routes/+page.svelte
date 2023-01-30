@@ -5,7 +5,8 @@
 	import Container from '../components/Container/Container.svelte';
 	import Navbar from '../components/Navbar/Navbar.svelte';
 	import { onMount } from 'svelte';
-	import { getSections } from '../constants/api';
+	import { getSections, playPlaylist } from '../constants/api';
+	import { playingSong } from '../stores/stores';
 	let sections = [];
 	let title = '';
 
@@ -24,10 +25,14 @@
 			title = 'İyi Akşamlar';
 		}
 	};
+
 	onMount(() => {
 		greetings();
 		sections = getSections();
 	});
+	function handlePlay() {
+		playPlaylist();
+	}
 </script>
 
 <Navbar background="#000" />
@@ -49,6 +54,7 @@
 						cover={sectionItem.content.data.images.items[0].sources[0].url}
 						caption={sectionItem.content.data.description}
 						url={`/playlist/${sectionItem.uri}`}
+						onPlay={handlePlay}
 					/>
 				{/each}
 			</div>
